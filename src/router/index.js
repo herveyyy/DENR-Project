@@ -1,9 +1,13 @@
 import PageOne from "../views/PageOne.vue";
 import HomeView from "../views/HomeView.vue";
 import PageTwo from "../views/PageTwo.vue";
-import { createRouter, createWebHashHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHashHistory,
+  createWebHistory,
+} from "vue-router";
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: [
     {
       path: "/",

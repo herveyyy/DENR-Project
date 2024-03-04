@@ -8,7 +8,9 @@ export default {
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl font-bold underline hover:underline cursor-pointer">
+    Hello world!
+  </h1>
   <div>
     <nav>
       <RouterLink to="/">Home</RouterLink>
